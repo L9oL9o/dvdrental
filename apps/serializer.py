@@ -23,49 +23,49 @@ class AuthGroupModelSerializer(ModelSerializer):
         exclude = ()
 
 
-class AuthUserModelSeAuthUser(ModelSerializer):
+class AuthUserModelSerializer(ModelSerializer):
     class Meta:
         model = AuthUser
         exclude = ()
 
 
-class CategoryModelSeCategory(ModelSerializer):
+class CategoryModelSerializer(ModelSerializer):
     class Meta:
         model = Category
         exclude = ()
 
 
-class CityModelSerialCity(ModelSerializer):
+class CityModelSerializer(ModelSerializer):
     class Meta:
         model = City
         exclude = ()
 
 
-class CountryModelSerCountry(ModelSerializer):
+class CountryModelSerializer(ModelSerializer):
     class Meta:
         model = Country
         exclude = ()
 
 
-class CustomerModelSeCustomer(ModelSerializer):
+class CustomerModelSerializer(ModelSerializer):
     class Meta:
         model = Customer
         exclude = ()
 
 
-class FilmModelSerialFilm(ModelSerializer):
+class FilmModelSerializer(ModelSerializer):
     class Meta:
         model = Film
         exclude = ()
 
 
-class FilmActorModelSFilmActor(ModelSerializer):
+class FilmActorModelSerializer(ModelSerializer):
     class Meta:
         model = FilmActor
         exclude = ()
 
 
-class FilmCategoryModFilmCategory(ModelSerializer):
+class FilmCategoryModelSerializer(ModelSerializer):
     class Meta:
         model = FilmCategory
         exclude = ()
@@ -83,7 +83,7 @@ class LanguageModelSerializer(ModelSerializer):
         exclude = ()
 
 
-class PaymentModelSerPayment(ModelSerializer):
+class PaymentModelSerializer(ModelSerializer):
     class Meta:
         model = Payment
         exclude = ()
